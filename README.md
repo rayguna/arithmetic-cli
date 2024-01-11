@@ -1,4 +1,4 @@
-# A Mental Math Challenge
+# A Mental Math Challenge (An OOP mini-Project) - Work under construction
 
 A command line interface app to give you an arithmetic math quiz.  
 
