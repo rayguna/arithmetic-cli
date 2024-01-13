@@ -5,6 +5,7 @@ A command line interface app to give you a mental arithmetic math quiz called <b
 ## Usage
 Run `ruby.app.rb` in the terminal.
 
+- Enter username.
 - Choose number of questions.
 - Choose a type of arithmetic (addition, subtraction, multiplication, addition, or mixed).
 - Get a score and repeat as many times as you wished.
