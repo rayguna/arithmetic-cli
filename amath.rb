@@ -1,10 +1,32 @@
 class AMath
+  """Generates n number of arithmetic questions that can be selected from:
+      - addition
+      - subtraction
+      - multiplication
+      - division
+
+    initialize:
+     - name (string) = user name
+
+    Methods:
+     - run = initiate app
+     - make_numbers = generate a list of two random numbers
+     - select_option = prompt user to select arithmetic operator(s)
+     - check_ans = compare user-input with expected answer
+     - add = sum two numbers
+     - subtract = subtract two numbers
+     - multiply = multiply two numbers
+     - divide = divide one number by another
+  """
 
   def initialize(name)
     @name = name
   end
 
   def run
+    """Initiate the app.
+    """
+
     loop do
       puts "\n"
       puts "Welcome, #{@name}, to the Mental Arithmetic Math Challenge!"
