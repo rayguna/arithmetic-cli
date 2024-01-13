@@ -20,6 +20,9 @@ class AMath
   """
 
   def initialize(name)
+    """Initialize user name for the instance variable.
+    """
+
     @name = name
   end
 
