@@ -1,5 +1,4 @@
-# A Mental Math Challenge (An OOP mini-Project) - Work under construction
-
+# A Mental Math Challenge (An OOP mini-Project)
 A command line interface app to give you a mental arithmetic math quiz called <b>AMath</b>.  
 
 ## Usage
