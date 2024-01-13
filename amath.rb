@@ -19,6 +19,8 @@ class AMath
      - divide = divide one number by another
   """
 
+  attr_reader :name, :last_score
+
   def initialize(name)
     """Initialize user name for the instance variable.
     """
@@ -107,7 +109,8 @@ class AMath
           end
 
           if option >= 1 and option <= 5 #only report score as needed 
-            puts "You score is: #{@score}/#{@how_many} (#{score_feedback})."
+            @last_score = "#{@score}/#{@how_many} (#{score_feedback})"
+            puts "You score is: #{@last_score}."
           end
 
         end
