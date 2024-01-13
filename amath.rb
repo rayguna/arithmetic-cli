@@ -6,7 +6,7 @@ class AMath
       - division
 
     initialize:
-     - name (string) = username
+     - name (string) = user name
 
     Methods:
      - run = initiate app
@@ -20,7 +20,7 @@ class AMath
   """
 
   def initialize(name)
-    """Initialize username for the instance variable.
+    """Initialize user name for the instance variable.
     """
 
     @name = name
